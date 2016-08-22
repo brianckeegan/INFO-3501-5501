@@ -1,4 +1,4 @@
-\documentclass[11pt]{memoir}
+\documentclass[10pt]{memoir}
 
 % based on kieran healy's memoir modifications
 \usepackage{mako-mem}
@@ -84,7 +84,7 @@
 \def\mycoursename{Peer Production and Crowdsourcing}
 \def\mycourselisting{INFO 3501/5501}
 \def\myoffice{ENVD 201}
-\def\myclassroom{HUMN 190}
+\def\myclassroom{Hellems 137}
 \def\mymeetingtime{Monday \& Wednesday 17:30--18:45}
 \def\mydate{Fall 2016}
 \def\myemail{brian.keegan@colorado.edu}
@@ -134,16 +134,16 @@ By the end of the semester, students should be able to: (1) discuss and compare 
 
 The course consists of three, five-week units. The first unit focuses on peer production and crowdsourcing as \textit{social} systems by exploring how motivations, norms, and governance interact. The second unit focuses on peer production and crowdsourcing as \textit{technical} systems by exploring the systems that structure user interactions and the kinds of data they record. The third unit focuses on peer production and crowdsourcing as \textit{alternative} systems to prevailing models for decision making, collaboration, and economic production.
 
-Class will meet twice per week on Monday and Wednesday from 17:30 to 18:45 (5:30pm to 6:45pm) in HUMN 190. The format of each class will vary between lecture, discussion, activities, and lab formats depending on the learning objectives of that week. Students will complete three kinds of assignments over the course of the class: (1) weekly reflections, (2) lab exercises, and (3) a final project. The final project will be developed in stages over the course of the semester with incremental contributions and peer feedback.
+Class will meet twice per week on Monday and Wednesday from 17:30 to 18:45 (5:30pm to 6:45pm) in \myclassroom. The format of each class will vary between lecture, discussion, activities, and lab formats depending on the learning objectives of that week. Students will complete three kinds of assignments over the course of the class: (1) weekly reflections, (2) lab exercises, and (3) a final project.
 
 \subsection{Prerequisites}
-There are no formal prerequisites for this course. However, you should have some familiarity (prior class, research project, internship experience, MOOC coursework, \textit{etc.}) with methods for data mining (web scraping, information retrieval from APIs, \textit{etc}.) and quantitative analysis (statistical inference, machine learning, \textit{etc}.). Knowledge of statistical software or scientific computing languages such as \texttt{R} or \texttt{Python} will also be helpful, but is not required. If you have questions or concerns about these prerequisites, please \href{mailto:brian.keegan@colorado.edu}{email me}.
+There are no formal prerequisites for this course. However, you should have some familiarity (prior class, research project, internship experience, MOOC coursework, \textit{etc.}) with methods for data mining (web scraping, information retrieval from APIs, \textit{etc}.), quantitative analysis (statistical inference, machine learning, \textit{etc}.), and data visualization. Knowledge of statistical software or scientific computing languages such as \texttt{R} or \texttt{Python} will also be helpful, but is not required. If you have questions or concerns about these prerequisites, please \href{mailto:brian.keegan@colorado.edu}{email me}.
 
 \subsection{Requirements}
-As a research seminar, students' regular and sustained participation in all class activities is essential. Attending and participating in all seminar meetings, completing all assignments, providing feedback on peers' contributions are all required from every student. If you need to be excused from attendance or need an extension, please \href{mailto:brian.keegan@colorado.edu}{notify me via email} at least 24 hours in advance.
+As a research seminar, students' regular and sustained participation in all class activities is essential. Attending and participating in all seminar meetings and completing all assignments. If you need to be excused from attendance or need an extension, please \href{mailto:brian.keegan@colorado.edu}{notify me via email} at least 24 hours in advance.
 
 \subsection{Course Website and Materials}
-Materials for the class (including a ``live'' version of the course schedule, readings, discussion board, lab assignments, tutorials, and data) will be made available through \mbox{Desire2Learn}:
+There is no textbook for the class and we will read magazine articles, academic papers, or book chapters. For many of the class sessions I have also included a sub-section of ``Additional Readings'' that are purely optional but may be useful if students are interested in reading in further depth to support a research project, preparing for prelims, \textit{etc}. Materials for the class (including a ``live'' version of the course schedule, readings, discussion board, lab assignments, tutorials, and data) will be made available through \mbox{Desire2Learn}:
 \vspace{-8pt}
     \begin{center}
     \href{https://https://learn.colorado.edu/d2l/home/179594}{https://learn.colorado.edu/d2l/home/179594}
@@ -151,7 +151,7 @@ Materials for the class (including a ``live'' version of the course schedule, re
 \vspace{-8pt}
 Once the semester begins, this PDF version of the syllabus will be revised infrequently and any revised requirements will be posted as announcements and updated course schedule to \mbox{Desire2Learn}.
 
-If you are interested in understanding Wikipedia in greater depth, I would recommend the following books:
+For students interested in understanding Wikipedia in greater depth, I would recommend the following books:
 
 \begin{readinglist} 
     \item \bibentry{ayers_wikipedia_2008}
@@ -162,32 +162,31 @@ If you are interested in understanding Wikipedia in greater depth, I would recom
 \end{readinglist}
 
 \subsection{Assignments}
-There are three kinds of assignments in the class: (1) reading responses, (2) lab assignments, and a (3) final project. Assignments should be submitted to me via \mbox{Desire2Learn}. I strongly prefer submissions to be in PDF format to maximize compatibility and reduce security risks. Reading responses should be submitted before 9:00 on their due dates for me to review them before class. Lab assignments should include your well-commented code documenting your process as well as the final outputs. Students will complete and submit their work individually but if you work with others, acknowledge your collaborators by name on the submission. You should be prepared to explain your implementation in a 1-on-1 code review if I request it.
+There are three kinds of assignments in the class: (1) reading responses, (2) lab assignments, and a (3) final project. Assignments should be submitted to me via \mbox{Desire2Learn}. I strongly prefer submissions to be in PDF format to maximize compatibility and reduce security risks. Students will complete and submit their work individually but if they work with others, they should acknowledge their collaborators by name on the submission.
 
-\subsubsection{Readings}
-There is no textbook for the class and we will read magazine articles, academic papers, or book chapters. PDFs of these materials will be available on the \mbox{Desire2Learn} class site. For many of the class sessions I have also included a sub-section of ``Additional Readings'' that are purely optional but may be useful if students are interested in reading in further depth to support a research project, preparing for prelims, \textit{etc}.
-
-\subsubsection{Lab Assignments}
-
-\subsubsection{Final Project}
+\begin{description}[itemsep=0pt,labelsep=0pt]
+    \item[Readings Responses] -- For weeks that do not have lab assignments, students will write at least a 500-word response to the readings for that week. Reading responses should be submitted before 9:00 (am) on their due dates for me to review them before class to support discussion. There are 8 reading responses assigned over the course of the semester. The schedule in the syllabus below has the suggested prompts but students should feel free (1) to surface and respond to other themes from the week's readings, (2) to juxtapose the readings to prior weeks' topics, or (3) to review one of the papers listed under Additional Readings. If students are struggling with formulating a response, consider using this \href{http://www.brianckeegan.com/2014/03/checklist-for-reviewing-and-thus-writing-a-research-paper/}{Checklist for Reviewing a Research Paper}.
+    \item[Lab Assignments ] -- Lab assignments are intended to develop students' skill and confidence performing exploratory data analyses using real world data from peer production systems. There are 5 lab assignments assigned over the course of the semester. We will work through the lab assignments during one class session but additional work may be required outside of class to write up discussions of the results. The majority of these assignments will be framed around the English Wikipedia, but students should feel free to extend these analyses to other wikis (other language editions, Wikia wikis, \textit{etc}.). Templates for completing the lab assignments will be provided in Jupyter Notebooks to enable students with minimal coding experience to complete them. 
+    \item[Final Project ] -- In lieu of having a final exam, students will submit a project that (1) dives deeper into a topical area, (2) extends the lab assignments into a larger data analysis, (3) critically analyzes an existing peer production or crowdsourcing system, or (4) develops a detailed proposal for applying a peer production or crowdsourcing model to an untapped domain. The final project will be due at the end of the semester.
+\end{description}
 
 \subsection{Statistical Computing}
 You will need to use statistical computing software in this class. You are welcome to use any scripting or statistical software you like (Python, \texttt{R}, \textit{etc}.); however, I will use \href{http://jupyter.org/}{Jupyter notebooks} written in Python for all in-class examples and solutions to the problem sets. I recommend using the \href{https://www.continuum.io/why-anaconda}{Anaconda distribution} of Python that includes the vast majority of libraries and functionality to support data collection and analysis for this class. You are however welcome to use any statistical software with which you are comfortable to complete lab assignments.
 
 \subsection{Evaluation} 
-Your final grade for the course will be based on my evaluation of the three kinds of assignments as well as your general participation within discussions during class and online.
+Your final grade for the course will be based on my evaluation of the three kinds of assignments as well as your general participation within discussions during class and online. 
 
     \begin{description}[itemsep=0pt,labelsep=0pt]
-        \item[Reading responses]~($30\%$)
-        \item[Lab assignments]~($30\%$)
-        \item[Final project]~($25\%$)
-        \item[Participation]~($15\%$)
+        \item[Reading Responses]~($30\%$) Responses that provide integrate other theories or perspectives, identify methodological limitations, or persuasively discuss implications in the context of contemporary topics will be evaluated more strongly than responses that simply summarize the readings or only make superficial connections among the themes. 
+        \item[Lab Assignments]~($30\%$) Students should include their well-commented code documenting your process as well as the final outputs (\textit{e.g.}, submitting the Jupyter Notebook file). Students should be prepared to explain your implementation in a 1-on-1 code review if I request it. Assignments will be primarily evaluated on their completeness, use of good documentation practice, and clarity when discussing results.
+        \item[Final Project]~($25\%$) Criteria for proposing and evaluating these final projects will be discussed later in the course. 
+        \item[Participation]~($15\%$) Students demonstrating consistent attendance, active engagement, high preparation, deep curiosity, sustained retention, positive attitude, persuasive arguments, and well-formatted assignments will earn the most credit.
     \end{description}
 
 \section{Course Policies}
 
 \subsection{In-Class Confidentiality}
-The success of this class depends on participants feeling comfortable sharing questions, ideas, concerns, and confusions about works-in-progress, the research process, and their personal experiences during class (in-class discussion, online discussions, and written assignments). These assignments and discussions should be considered confidential and generally should not be discussed with people outside of class. You may read and comment on classmates' writing, code, and images for the sole purpose of use within this class. You may not use, run, copy, perform, display, distribute, modify, translate, or create derivative works of other students' work outside of this class without their expressed written consent or formal license. Furthermore, you may not create any audio, video, or other records during class time nor may you share comments attributable to other people's identities without getting that person's permission.
+The success of this class depends on participants feeling comfortable sharing questions, ideas, concerns, and confusions about works-in-progress, the research process, and their personal experiences. These assignments and discussions should be considered confidential and generally should not be discussed outside of class. You may read and comment on classmates' writing, code, and images for the sole purpose of use within this class. You may not use, run, copy, perform, display, distribute, modify, translate, or create derivative works of other students' work outside of this class without their expressed written consent or formal license. Furthermore, you may not create any audio, video, or other records during class time nor may you publicly share comments attributable to other people's identities without that person's permission.
 
 \subsection{Faculty Interaction}
 In addition to teaching this class, I also (1) manage a research program; (2) advise students; (3) perform service for the academic community; and (4) live my life as a private citizen. I will check e-mail between 8:00 and 18:00 on non-holiday business days and try to respond within 24 hours. I welcome online or offline interactions outside of class, however these are not appropriate spaces for discussing class matters. \href{maito:brian.keegan@colorado.edu}{E-mailing me}, coming to my office hours, or scheduling an appointment are the best ways to ask questions, discuss concerns, or get feedback outside of class.
@@ -225,12 +224,7 @@ The design and format of this course borrows from similar courses offered by oth
 \newpage
 \section{\textbf{Course Outline}}
 
-As described above, all readings and assigned tasks are due
-\emph{prior} to the class alongside which they are listed. Items
-listed in the ``Additional Readings'' subsection for each week are not
-required. I may adjust the list of readings or the schedule as needed
-throughout the quarter, so please consult the online version of the
-schedule for the most up-to-date information. We will meet in class a total of 29 times over the course of the the 16-week semester.
+As described above, all readings and assigned tasks are due \emph{prior} to the class alongside which they are listed. Items listed in the ``Additional Readings'' subsection for each week are not required. I may adjust the list of readings or the schedule as needed throughout the quarter, so please consult the online version of the schedule for the most up-to-date information. We will meet in class a total of 29 times over the course of the the 16-week semester.
 
 %%%%%%%%%%%%%
 %% WEEK 01 %%
@@ -249,8 +243,6 @@ Review syllabus, learning objectives, and course policies. Introduce yourselves 
         \item \bibentry{zimmmer_okcupid_2016}
         \item \bibentry{wiki_terms_of_use}
     \end{readinglist}
-
-%\subsection{Additional readings}
 
 \section{1 -- A Wager}
 \textcolor{CUGold}{\textbf{Wednesday, August 24}}\\
@@ -314,13 +306,13 @@ Why do participants stick around and become active contributors within online co
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 2 ] -- due Wednesday, August 31. 
+        \item[Reading Response 2 ] -- due Wednesday, August 31. What kinds of motivations are particular to writing an encyclopedia and what motivations might generalize across contexts? What motivations are most likely to sustain users' commitment over the long term? What are potential challenges when a system needs to support diverse motivations? What are the risks of systems that prioritize some motivations over others?
     \end{description}
     
     \subsection{Additional Readings}
     \begin{readinglist}
         \item \bibentry{panciera_wikipedians_2009}.
-        \item \bibentry{}
+        %\item \bibentry{}
         item \bibentry{}
     \end{readinglist}
 
@@ -332,6 +324,7 @@ Why do participants stick around and become active contributors within online co
 
 \section{5 -- Newcomers}
 \textcolor{CUGold}{\textbf{Wednesday, September 7}}\\
+How do peer production systems handle new users? What kinds of structures discourage newcomers? We will discuss and evaluate social and technical interventions to support newcomers.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -345,6 +338,7 @@ Why do participants stick around and become active contributors within online co
 %%%%%%%%%%%%%
 \section{6 -- Culture and Norms}
 \textcolor{CUGold}{\textbf{Monday, September 12}}\\
+What does it mean to become a member of a peer production community? What kinds of behaviors are encouraged? We will discuss the different norms that shape community behavior.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -364,6 +358,7 @@ Why do participants stick around and become active contributors within online co
 
 \section{7 -- Rules and Governance}
 \textcolor{CUGold}{\textbf{Wednesday, September 14}}\\
+In addition to norms, communities also have more formal governance structures like written rules and practices for elites to use power. We will discuss the emergence and consequences of these rules and governance mechanisms for the sustainability of the community.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -373,7 +368,7 @@ Why do participants stick around and become active contributors within online co
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 3 ] -- due Wednesday, September 14. 
+        \item[Reading Response 3 ] -- due Wednesday, September 14. Are the various wiki-philosophies specific to a system like Wikipedia or could they extend to other peer production contexts? What are the trade-offs to consider when adopting more formal rules? What strategies could peer production systems implement to deal with the Iron Law?
     \end{description}
     
     \subsection{Additional Readings}
@@ -385,7 +380,7 @@ Why do participants stick around and become active contributors within online co
         \item \bibentry{kostakis_peer_2010}
         %\item \bibentry{konieczny_governance_2009}
         \item \bibentry{konieczny_adhocratic_2010}
-        \item \bibentry{leskovec_governance_2010}
+        %\item \bibentry{leskovec_governance_2010}
         \item \bibentry{omahony_emergence_2007}
     \end{readinglist}
 
@@ -395,16 +390,29 @@ Why do participants stick around and become active contributors within online co
 %%%%%%%%%%%%%
 \section{8 -- Conflict}
 \textcolor{CUGold}{\textbf{Monday, September 19}}\\
+Conflict is inevitable as social groups grow larger. What kinds of conflict in peer production systems and how does the community manage them? We will discuss how Wikipedia manages conflicts through a several technical and social processes.
 
     \subsection{Readings}
     \begin{readinglist}
         \item \bibentry{kittur_he_2007}
         \item \bibentry{joyce_handling_2011}
     \end{readinglist}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{arazy_stay_2013}
+        \item \bibentry{borra_societal_2015}
+        \item \bibentry{kittur_beyond_2010}
+        \item \bibentry{matei_wikipedias_2010}
+        \item \bibentry{osman_role_2013}
+        \item \bibentry{sumi_edit_2011}
+        \item \bibentry{towne_your_2013}
+        \item \bibentry{yasseri_dynamics_2012}
+    \end{readinglist}
 
 \section{9 -- Bias}
 \textcolor{CUGold}{\textbf{Wednesday, September 21}}\\
-How susceptible are peer production systems to the biases of their contributors? We discuss research findings about geographic, cultural, gender, and political biases in Wikipedia.
+How susceptible are peer production systems to the biases of their contributors? We will discuss research findings about geographic, cultural, gender, and political biases in Wikipedia.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -415,7 +423,7 @@ How susceptible are peer production systems to the biases of their contributors?
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 4 ] -- due Wednesday, September 21. 
+        \item[Reading Response 4 ] -- due Wednesday, September 21. How do conflict resolution strategies need to change as peer production communities change in size, complexity, or mission? What are trade-offs to consider around conflict management when bringing more diverse contributors into the system? What are other kinds of bias that can creep into peer production systems?
     \end{description}
     
     \subsection{Additional Readings}
@@ -434,6 +442,7 @@ How susceptible are peer production systems to the biases of their contributors?
 %%%%%%%%%%%%%
 \section{10 -- Revision Histories}
 \textcolor{CUGold}{\textbf{Monday, September 26}}\\
+Wikipedia records every change made to every article since its inception. We will discuss how to access these data and what is recorded. We will look at two papers that used these data to understand the dynamics of conflict between users and well as how to measure how much time users invest in editing Wikipedia.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -460,6 +469,28 @@ We will share and discuss the findings from our laboratory assignments.
 %%%%%%%%%%%%%
 \section{12 -- Networks}
 \textcolor{CUGold}{\textbf{Monday, October 3}}\\
+Wikipedia encodes a variety of relationships in its data. We will discuss these different kinds of relationships and explore how to use methods from network science to understand and visualize these data. 
+
+    \subsection{Readings}
+    \begin{readinglist}
+        \item \bibentry{keegan_analyzing_2013}
+        \item \bibentry{kane_its_2009}
+    \end{readinglist}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{aragon_biographical_2012}
+        \item \bibentry{brandes_network_2009}
+        %\item \bibentry{capocci_preferential_2006}
+        %\item \bibentry{howison_validity_2011}
+        \item \bibentry{jankowski-lorek_verifying_2016}
+        \item \bibentry{keegan_editors_2012}
+        \item \bibentry{laniado_when_2011}
+        %\item \bibentry{laniado_co-authorship_2011}
+        \item \bibentry{massa_social_2011}
+        \item \bibentry{suh_us_2007}
+        \item \bibentry{welser_finding_2011}
+    \end{readinglist}
 
 \section{13 -- Networks Lab}
 \textcolor{CUGold}{\textbf{Wednesday, October 5}}\\
@@ -475,18 +506,25 @@ We will share and discuss the findings from our laboratory assignments.
 %%%%%%%%%%%%%
 \section{14 -- Pageviews}
 \textcolor{CUGold}{\textbf{Monday, October 10}}\\
-Wikipedia collects data about the volume of pageviews for each article. What do these patterns of information consumption reveal? How can they be combined with other kinds of data to measure inefficiencies or make forecasts?
+Wikipedia collects data about the volume of pageviews for each article. What do these patterns of information consumption reveal? We will explore how they be combined with other kinds of data to measure inefficiencies or make forecasts.
 
     \subsection{Readings}
     \begin{readinglist}
-        \item \bibentry{mestyan_early_2013}
+        \item \bibentry{generous_global_2014}
         \item \bibentry{warncke-wang_misalignment_2015}
     \end{readinglist}
     
     \subsection{Additional Readings}
     \begin{readinglist}
-        \item \bibentry{generous_global_2014}
+        \item \bibentry{althoff_analysis_2013}
+        \item \bibentry{choi_predicting_2012}
+        \item \bibentry{crane_robust_2008}
         \item \bibentry{hickmann_forecasting_2015}
+        \item \bibentry{kampf_fluctuations_2012}
+        \item \bibentry{mestyan_early_2013}
+        \item \bibentry{moat_quantifying_2013}
+        \item \bibentry{ratkiewicz_characterizing_2010}
+        \item \bibentry{thij_modeling_2012}
     \end{readinglist}
 
 \section{15 -- Pageviews Lab}
@@ -501,9 +539,24 @@ We will share and discuss the findings from our laboratory assignments.
 %%%%%%%%%%%%%
 %% WEEK 09 %%
 %%%%%%%%%%%%%
-\section{16 -- Ontologies}
+\section{16 -- Ontologies and Linked Data}
 \textcolor{CUGold}{\textbf{Monday, October 17}}\\
-% Wikidata?
+Wikipedia encodes a variety of semantic and other structured data in infoboxes, categories, templates, and other structures. How are these data structured and linked together? What are the opportunities and challenges of new projects like WikiData?
+
+    \subsection{Readings}
+    \begin{readinglist}
+        \item \bibentry{shirky_ontology_2005}
+        \item \bibentry{vrandecic_wikidata_2014}
+    \end{readinglist}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{bizer_emerging_2009}
+        \item \bibentry{erxleben_introducing_2014}
+        \item \bibentry{kittur_whats_2009}
+        \item \bibentry{volkel_semantic_2006}
+        \item \bibentry{yu_ontology_2007}
+    \end{readinglist}
 
 \section{17 -- Ontologies Lab}
 \textcolor{CUGold}{\textbf{Wednesday, October 19}}\\
@@ -519,6 +572,7 @@ We will share and discuss the findings from our laboratory assignments.
 %%%%%%%%%%%%%
 \section{18 -- Bots}
 \textcolor{CUGold}{\textbf{Monday, October 24}}\\
+Peer production systems require repetitive maintenance tasks that lend themselves to automation. What kinds of tasks can be automated? What are the consequences of relying on bots to help maintain the system?
 
     \subsection{Readings}
     \begin{readinglist}
@@ -529,8 +583,8 @@ We will share and discuss the findings from our laboratory assignments.
     \subsection{Additional Readings}
     \begin{readinglist}
         \item \bibentry{halfaker_snuggle_2014}
-        \item \bibentry{steiner_bots_2014}
         \item \bibentry{muller-birn_work_2013}
+        \item \bibentry{steiner_bots_2014}
     \end{readinglist}
 
 \section{19 -- Bots Lab}
@@ -587,7 +641,7 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 5 ] -- due Wednesday, November 2. What shortcomings did the creators of these alternative encyclopedias identify with Wikipedia's model? How did their
+        \item[Reading Response 5 ] -- due Wednesday, November 2. What shortcomings did the creators of these alternative encyclopedias identify with Wikipedia's model? How were their alternative values implemented in the code of the system and practices of the community? How should we judge the success of their alternative approaches?
     \end{description}
     
     \subsection{Additional Readings}
@@ -603,23 +657,61 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
 %%%%%%%%%%%%%
 %% WEEK 12 %%
 %%%%%%%%%%%%%
-\section{22 -- Successors 1: Wikia}
+\section{22 -- Successors 1: Citizen Science}
 \textcolor{CUGold}{\textbf{Monday, November 7}}
+Wikipedia demonstrated that a long tail of non-experts can produce a large and high-quality encyclopedia. How effective are aggregating the contributions from other non-experts at solving other scientific tasks? We will explore how lessons from peer production have influenced the development of citizen science.
+
+    \subsection{Readings}
+    \begin{readinglist}
+        \item \bibentry{rotman_dynamic_2012}
+        \item \bibentry{wiggins_conservation_2011}
+    \end{readinglist}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{anderson_setihome_2002}
+        \item \bibentry{cooper_predicting_2010}
+        \item \bibentry{lintott_galaxy_2008}
+        \item \bibentry{reed_exploratory_2013}
+        \item \bibentry{sakaki_earthquake_2010}
+        \item \bibentry{stefanovitch_error_2014}
+        \item \bibentry{yuen_survey_2011}
+    \end{readinglist}
+    
 
 \section{23 -- Successors 2: OpenStreetMaps}
-\textcolor{CUGold}{\textbf{Wednesday, November 9}}
+\textcolor{CUGold}{\textbf{Wednesday, November 9}}\\
+The peer production model has also been adopted to produce other common goods such as maps. We will discuss how ``geo-wikis'' work and what additional considerations are needed when moving away from textual data. \textbf{Featuring a guest lecture by Jennings Anderson}.
 
+    \subsection{Readings}
+    \begin{readinglist}
+        \item \bibentry{haklay_openstreetmap_2008}
+        \item \bibentry{priedhorsky_computational_2008}
+    \end{readinglist}
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 6 ] -- due Wednesday, November 9. 
+        \item[Reading Response 6 ] -- due Wednesday, November 9. TBD.
     \end{description}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{budhathoki_motivation_2013}
+        \item \bibentry{elwood_researching_2012}
+        \item \bibentry{goodchild_citizens_2007}
+        \item \bibentry{mooney_towards_2010}
+        \item \bibentry{palen_success_2015}
+        \item \bibentry{quattrone_exploring_2016}
+        %\item \bibentry{soden_infrastructure_2016}
+        \item \bibentry{wang_crowdatlas_2013}
+    \end{readinglist}
     
 %%%%%%%%%%%%%
 %% WEEK 13 %%
 %%%%%%%%%%%%%
 \section{24 -- Creative Collaboration 1: Scratch}
-\textcolor{CUGold}{\textbf{Monday, November 14}}
+\textcolor{CUGold}{\textbf{Monday, November 14}}\\
+Peer production communities can also collaborate to produce creative work. Scratch is an online community of young people who create, share, and remix animations, games, and other computational projects. \textbf{Featuring a guest lecture by Professor Ricarose Roque}.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -636,17 +728,29 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
     \end{readinglist}
 
 \section{25 -- Creative Collaboration 2: Threadless}
-\textcolor{CUGold}{\textbf{Wednesday, November 16}}
+\textcolor{CUGold}{\textbf{Wednesday, November 16}}\\
+How can crowds be utilized within traditional organizations to support research and development? We will examine the case of the Threadless community and how the crowd is used to generate and evaluate creative designs.
 
-\begin{readinglist}
-    \item \bibentry{brabham_moving_2010}
-    \item \bibentry{hutter_communitition_2011}
-\end{readinglist}
-    
+    \subsection{Readings}
+    \begin{readinglist}
+        \item \bibentry{brabham_moving_2010}
+        \item \bibentry{kittur_crowdsourcing_2010}
+    \end{readinglist}
+        
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 7 ] -- due Wednesday, November 16. 
+        \item[Reading Response 7 ] -- due Wednesday, November 16. TBD.
     \end{description}
+    
+    \subsection{Additional Readings}
+    \begin{readinglist}
+        \item \bibentry{brabham_crowdsourcing_2008}
+        \item \bibentry{brabham_moving_2010}
+        \item \bibentry{geiger_managing_2011}
+        \item \bibentry{hutter_communitition_2011}
+        \item \bibentry{yu_cooks_2011}
+        \item \bibentry{yu_collective_2012}
+    \end{readinglist}
     
 %%%%%%%%%%%%%
 %% WEEK 14 %%
@@ -661,7 +765,8 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
 %% WEEK 15 %%
 %%%%%%%%%%%%%
 \section{28 -- Beyond Wikis: Open Hardware}
-\textcolor{CUGold}{\textbf{Monday, November 28}}
+\textcolor{CUGold}{\textbf{Monday, November 28}}\\
+Peer production models can also extend beyond online and software collaborations. What strategies have members of the Open Hardware movement translated from elsewhere and what have they had to innovate themselves?
 
     \subsection{Readings}
     \begin{readinglist}
@@ -679,7 +784,8 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
     \end{readinglist}
 
 \section{29 -- Beyond Wikis: Blockchains}
-\textcolor{CUGold}{\textbf{Wednesday, November 30}}
+\textcolor{CUGold}{\textbf{Wednesday, November 30}}\\
+Peer production can also be used to ensure accountability across a complex system. Crypto-currencies like Bitcoin introduced the idea of ``blockchains'' that offer some radical ideas about how to decentralize control over important transactions.
 
     \subsection{Readings}
     \begin{readinglist}
@@ -688,14 +794,15 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
     
     \subsection{Assignments}
     \begin{description}%[itemsep=2pt,labelsep=0pt]
-        \item[Reading Response 8 ] -- due Wednesday, November 30. 
+        \item[Reading Response 8 ] -- due Wednesday, November 30. TBD.
     \end{description}
     
 %%%%%%%%%%%%%
 %% WEEK 16 %%
 %%%%%%%%%%%%%
 \section{30 -- Platform Cooperativism}
-\textcolor{CUGold}{\textbf{Monday, December 5}}
+\textcolor{CUGold}{\textbf{Monday, December 5}}\\
+Peer production demonstrated the potential for information technology to support the production of valuable goods in the absence of traditional economic incentives. How far could these models be applied to other areas of the economy? \textbf{Featuring a guest lecture by Professor Nathan Schneider.}
 
     \subsection{Readings}
     \begin{readinglist}
@@ -705,8 +812,8 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
     \end{readinglist}
 
 \section{31 -- Wrap-up}
-\textcolor{CUGold}{\textbf{Wednesday, December 7}}
-
+\textcolor{CUGold}{\textbf{Wednesday, December 7}}\\
+Discuss final project preparations, reflect on themes from the course, overflow time if there are topics we missed or want to dive into greater depth.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -719,7 +826,7 @@ The MediaWiki software and encyclopedic mission of Wikipedia were adopted by oth
 \newpage
 \renewcommand{\bibsection}{\section{\huge \bibname}\prebibhook}
 \baselineskip 14.2pt
-\bibliography{refs}
+\nobibliography{refs}
 \bibliographystyle{apalike}
 
 \end{document}
